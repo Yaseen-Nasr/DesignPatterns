@@ -5,7 +5,7 @@
         public ExchangeRate(string baseCurrency, string targetCurrency, decimal rate)
         {
 
-            BaseCurrency = baseCurrency;
+           BaseCurrency = baseCurrency;
             TargetCurrency = targetCurrency; 
             Rate = rate;
         }

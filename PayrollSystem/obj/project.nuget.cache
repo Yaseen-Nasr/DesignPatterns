@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "FfFfF2ZQdGO+u6Hw8lb/SfkLCj8kvxIReqBiu4A97dZZ+ucC+ZATkj2E2SdHMtVnjPe6eY2jijM6X2++9xtAPQ==",
+  "success": true,
+  "projectFilePath": "C:\\Data\\DesignPatterns\\PayrollSystem\\PayrollSystem.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\yasee\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\yasee\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\yasee\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\yasee\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\yasee\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\yasee\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}

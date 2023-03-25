@@ -11,5 +11,5 @@ while (true)
     //var coverter = new CurrencyConverter();
     var exchangeAmount = CurrencyConverter.Instance.Convert(basecurrency, targetcurrency, amount);
     Console.WriteLine($"{amount} {basecurrency} = {exchangeAmount} {targetcurrency}");
-    Console.WriteLine("---------------------");
+    Console.WriteLine("-------------------");
 }
