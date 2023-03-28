@@ -6,11 +6,13 @@ To keep the code organized, I've created a separate class library project to hol
 Here are some of the design patterns that are included in this repository:
 
 -Singleton Pattern
+                          
+                          
+-Adapter Pattern      
 
--Adapter Pattern 
 I assume that PayRollSystem(working with a legacy system) i have to deal with it so in AdapterPattern projc i apply this pattern by `PayrollSystemEmployeeAdapter.cs` and `PayrollSystemPayItemAdapter.cs` to to constract the `Empolyee` and `PayItem` that the `PayRollsystem` to adapt the expected inputs and outputs
 far from chenges requirements in AdapterPattern projc
-
+          
 -Factory Pattern
 
 -Decorator Pattern
