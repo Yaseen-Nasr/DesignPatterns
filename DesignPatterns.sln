@@ -7,9 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingletonPattern", "Singlet
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AdapterPattern", "AdapterPattern", "{0DA39968-434F-4C0F-8EB3-DBE96648E2DF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdapterPattern", "AdapterPattern\AdapterPattern.csproj", "{C1CC916B-F39E-4F4A-9B7F-19BC656F83F4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdapterPattern", "AdapterPattern\AdapterPattern.csproj", "{C1CC916B-F39E-4F4A-9B7F-19BC656F83F4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayrollSystem", "PayrollSystem\PayrollSystem.csproj", "{82587FE1-A08D-45EB-BD5D-BA0518606080}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PayrollSystem", "PayrollSystem\PayrollSystem.csproj", "{82587FE1-A08D-45EB-BD5D-BA0518606080}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrategyPattern", "StrategyPattern\StrategyPattern.csproj", "{BDD4852C-F95A-49C5-B53B-BBF88354D322}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,6 +31,10 @@ Global
 		{82587FE1-A08D-45EB-BD5D-BA0518606080}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{82587FE1-A08D-45EB-BD5D-BA0518606080}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{82587FE1-A08D-45EB-BD5D-BA0518606080}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDD4852C-F95A-49C5-B53B-BBF88354D322}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDD4852C-F95A-49C5-B53B-BBF88354D322}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDD4852C-F95A-49C5-B53B-BBF88354D322}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDD4852C-F95A-49C5-B53B-BBF88354D322}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
