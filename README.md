@@ -13,7 +13,8 @@ Here are some of the design patterns that are included in this repository:
 I assume that PayRollSystem ( a legacy system) i have to deal with it so in AdapterPattern projc i apply this pattern by `PayrollSystemEmployeeAdapter.cs` and `PayrollSystemPayItemAdapter.cs` to to constract the `Empolyee` and `PayItem` that the `PayRollsystem` to adapt the expected inputs and outputs
 far from chenges requirements in AdapterPattern projc
           
--Factory Pattern
+-Strategy Pattern && -Factory Pattern
+ Apply simple factory pattern in StrategyPattern project when create new instance of ICustomerDiscountStrategy to centralizetion creation instance.
 
 -Decorator Pattern
 
@@ -23,6 +24,6 @@ far from chenges requirements in AdapterPattern projc
 
 -Template Method Pattern
 
--Strategy Pattern
+
 
 For each pattern, I have provided a brief description of what it is, how it works, and when it is appropriate to use. I have also included code examples in C# to illustrate how the pattern can be implemented.
