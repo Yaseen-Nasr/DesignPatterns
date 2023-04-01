@@ -14,7 +14,7 @@ I assume that PayRollSystem ( a legacy system) i have to deal with it so in Adap
 far from chenges requirements in AdapterPattern projc
           
 -Strategy Pattern && -Factory Pattern
- Apply simple factory pattern in StrategyPattern project when create new instance of ICustomerDiscountStrategy to centralizetion creation instance.
+ Apply simple factory pattern in `StrategyPattern` project when create new instance of `ICustomerDiscountStrategy` to centralizetion creation instance.
 
 -Decorator Pattern
 
