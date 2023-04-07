@@ -21,6 +21,16 @@
 
 
                 }
+                ,
+
+                new Customer()
+                {
+                      Id=3,
+                      Name="Sameh Mohamed ",
+                      CustomerCategory=CustomerCategory.New
+
+
+                }
             };
         }
     }

@@ -7,7 +7,10 @@ var dataReader = new CustomerDataReader();
 var customers = dataReader.GetCustomers();
 while (true)
 {
-    Console.WriteLine("Customer list:: [1] Mohamed Ahmed ,[2] Ibrahim Mohamed ");
+    foreach (var customer in customers)
+    {
+        Console.WriteLine($"Customer list:: {customer.Id}. {customer.Name} ({customer.CustomerCategory})");
+    }
     Console.Write("Enter Customer ID: ");
     int customerId = int.Parse(Console.ReadLine()!);
     Console.Write("Enter Quantity: ");
@@ -15,15 +18,15 @@ while (true)
     Console.Write("Enter Unit Price: ");
     double UnitPrice = double.Parse(Console.ReadLine()!);
     //assume happy path without any validation 
-    var customer = customers.First(x => x.Id == customerId);
-    //Using sample factory pattern
+    
+    var SelectedCustomer = customers.First(x => x.Id == customerId); 
+    //Using simple factory pattern to create instance
     ICustomerDiscountStrategy discountStrategy =new CustomerDiscountStrategyFactory()
-                                        .CreateCustomerDiscountStrategy(customer.CustomerCategory);
-        
-
+                                        .CreateCustomerDiscountStrategy(SelectedCustomer.CustomerCategory);
+     
     var invoiceManager = new InvoiceManager();
     invoiceManager.SetDiscountStrategy(discountStrategy);
-    Invoice invoice = invoiceManager.CreateInvoice(customer, quantity, UnitPrice);
+    Invoice invoice = invoiceManager.CreateInvoice(SelectedCustomer, quantity, UnitPrice);
      
-    Console.WriteLine($"Invoice created for customer `{customer.Name}` with net price: {invoice.NetPrice}");
+    Console.WriteLine($"Invoice created for customer `{SelectedCustomer.Name}` with net price: {invoice.NetPrice}");
 }

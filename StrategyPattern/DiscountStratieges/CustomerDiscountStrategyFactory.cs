@@ -11,6 +11,7 @@ namespace StrategyPattern.DiscountStratieges
                 CustomerCategory.New => new NewCustomerDiscountStrategy(),
                 CustomerCategory.Silver => new SilverCustomerDiscountStrategy(),
                 CustomerCategory.Gold => new GoldCustomerDiscountStrategy(),
+                    //To handel Null checks
                 _ => new NewCustomerDiscountStrategy()
             }; 
         }
