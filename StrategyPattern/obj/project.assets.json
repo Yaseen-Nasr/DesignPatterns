@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Data\\DesignPatterns\\StrategyPattern\\SalesPattern.csproj",
-      "projectName": "SalesPattern",
-      "projectPath": "C:\\Data\\DesignPatterns\\StrategyPattern\\SalesPattern.csproj",
+      "projectUniqueName": "C:\\Data\\DesignPatterns\\StrategyPattern\\SalesSystem.csproj",
+      "projectName": "SalesSystem",
+      "projectPath": "C:\\Data\\DesignPatterns\\StrategyPattern\\SalesSystem.csproj",
       "packagesPath": "C:\\Users\\yasee\\.nuget\\packages\\",
       "outputPath": "C:\\Data\\DesignPatterns\\StrategyPattern\\obj\\",
       "projectStyle": "PackageReference",

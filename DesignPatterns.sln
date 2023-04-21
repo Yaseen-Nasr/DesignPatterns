@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdapterPattern", "AdapterPa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PayrollSystem", "PayrollSystem\PayrollSystem.csproj", "{82587FE1-A08D-45EB-BD5D-BA0518606080}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SalesPattern", "StrategyPattern\SalesPattern.csproj", "{BDD4852C-F95A-49C5-B53B-BBF88354D322}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SalesSystem", "StrategyPattern\SalesSystem.csproj", "{BDD4852C-F95A-49C5-B53B-BBF88354D322}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
