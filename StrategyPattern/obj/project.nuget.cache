@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HSoucTyh+bZn75EOQ+6dWme7zPqQW5WuP3BXE2grhLL1W/An9eo77fYHoLsI9tJ/vq9dx0nsBHWGFjO5I7kbYw==",
+  "dgSpecHash": "5wdGeUlDjRz9uVdK9cRuXduhQMeybMFhoF1Ipwh03SGUABBDzrOHitdh2Ok2svUy22rlh9zKSfxWpALEaDzAmg==",
   "success": true,
-  "projectFilePath": "C:\\Data\\DesignPatterns\\StrategyPattern\\StrategyPattern.csproj",
+  "projectFilePath": "C:\\Data\\DesignPatterns\\StrategyPattern\\SalesPattern.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

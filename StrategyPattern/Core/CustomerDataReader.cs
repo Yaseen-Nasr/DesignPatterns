@@ -17,18 +17,14 @@
                 {
                       Id=2,
                       Name="Ibrahim Mohamed ",
-                      CustomerCategory=CustomerCategory.Silver
-
-
+                      CustomerCategory=CustomerCategory.Silver  
                 }
                 ,
 
                 new Customer()
                 {
                       Id=3,
-                      Name="Sameh Mohamed ",
-                      CustomerCategory=CustomerCategory.New
-
+                      Name="Sameh Mohamed ", 
 
                 }
             };
