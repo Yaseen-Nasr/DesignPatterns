@@ -13,7 +13,8 @@ Here are some of the design patterns that are included in this repository:
 I assume that PayRollSystem ( a legacy system) i have to deal with it so in AdapterPattern projc i apply this pattern by `PayrollSystemEmployeeAdapter.cs` and `PayrollSystemPayItemAdapter.cs` to to constract the `Empolyee` and `PayItem` that the `PayRollsystem` to adapt the expected inputs and outputs
 far from chenges requirements in AdapterPattern projc
           
-3-Strategy Patter
+3-Strategy Patter 
+
 4-Factory Patterns n (handilling Null Object)
 
  Apply simple factory pattern in `SalesSystem` project when create new instance of `ICustomerDiscountStrategy` to centralizetion creation instance with in `CustomerDiscountStrategyFactory` and handling null object excebtion  by return the default instance of `NewCustomerDiscountStrategy`,
