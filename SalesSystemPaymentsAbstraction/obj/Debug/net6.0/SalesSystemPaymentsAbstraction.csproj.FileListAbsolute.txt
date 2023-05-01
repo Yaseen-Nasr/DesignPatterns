@@ -1,0 +1,12 @@
+C:\Data\DesignPatterns\SalesSystemPaymentsAbstraction\bin\Debug\net6.0\SalesSystemPaymentsAbstraction.deps.json
+C:\Data\DesignPatterns\SalesSystemPaymentsAbstraction\bin\Debug\net6.0\SalesSystemPaymentsAbstraction.dll
+C:\Data\DesignPatterns\SalesSystemPaymentsAbstraction\bin\Debug\net6.0\SalesSystemPaymentsAbstraction.pdb
+C:\Data\DesignPatterns\SalesSystemPaymentsAbstraction\obj\Debug\net6.0\SalesSystemPaymentsAbstraction.csproj.AssemblyReference.cache
+C:\Data\DesignPatterns\SalesSystemPaymentsAbstraction\obj\Debug\net6.0\SalesSystemPaymentsAbstraction.GeneratedMSBuildEditorConfig.editorconfig
+C:\Data\DesignPatterns\SalesSystemPaymentsAbstraction\obj\Debug\net6.0\SalesSystemPaymentsAbstraction.AssemblyInfoInputs.cache
+C:\Data\DesignPatterns\SalesSystemPaymentsAbstraction\obj\Debug\net6.0\SalesSystemPaymentsAbstraction.AssemblyInfo.cs
+C:\Data\DesignPatterns\SalesSystemPaymentsAbstraction\obj\Debug\net6.0\SalesSystemPaymentsAbstraction.csproj.CoreCompileInputs.cache
+C:\Data\DesignPatterns\SalesSystemPaymentsAbstraction\obj\Debug\net6.0\SalesSystemPaymentsAbstraction.dll
+C:\Data\DesignPatterns\SalesSystemPaymentsAbstraction\obj\Debug\net6.0\refint\SalesSystemPaymentsAbstraction.dll
+C:\Data\DesignPatterns\SalesSystemPaymentsAbstraction\obj\Debug\net6.0\SalesSystemPaymentsAbstraction.pdb
+C:\Data\DesignPatterns\SalesSystemPaymentsAbstraction\obj\Debug\net6.0\ref\SalesSystemPaymentsAbstraction.dll

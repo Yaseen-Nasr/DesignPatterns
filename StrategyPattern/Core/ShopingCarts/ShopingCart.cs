@@ -1,4 +1,5 @@
-﻿using StrategyPattern.Core;
+﻿using SalesSystemPaymentsAbstraction;
+using StrategyPattern.Core;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,7 +15,7 @@ namespace SalesPattern.Core.ShopingCarts
         {
             _lines.Add(new InvoiceLine { ItemId = itemId, Quantity = quantity, UnitPrice = unitPrice });
         }
-        public void CheckOut(Customer customer)
+        public void CheckOut(Customer customer,PaymentProcessor paymentProcessor)
         {
             var invoice = new Invoice()
             {
@@ -23,7 +24,7 @@ namespace SalesPattern.Core.ShopingCarts
             };
             ApplyTaxes(invoice);
             ApplyDiscount(invoice);
-            ProcessPayment(invoice);
+            ProcessPayment(invoice,paymentProcessor);
 
         }
 
@@ -35,25 +36,16 @@ namespace SalesPattern.Core.ShopingCarts
         //Templete Method
         protected abstract void ApplyDiscount(Invoice invoice);
 
-        private void ProcessPayment(Invoice invoice)
+        private void ProcessPayment(Invoice invoice,PaymentProcessor paymentProcessor)
         {
             Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine($"({GetType().Name}) Invoice created for customer `{invoice.Customer.Name}` with price: {invoice.NetPrice}");
             Console.ForegroundColor = ConsoleColor.White;
 
+           var payment= paymentProcessor.ProcessPayment(invoice.Customer.Id, invoice.NetPrice);
+            Console.WriteLine($"Customer charged with {payment.ChargAmount:0.00}, payment ref {payment.ReferenceNumber}");
+            Console.ForegroundColor = ConsoleColor.White;
+
         }
     }
-    internal class OnlineShopingCart : ShopingCart
-    {
-        protected override void ApplyDiscount(Invoice invoice)
-        {
-            if (invoice.TotalPrice >= 10000) invoice.DiscountPrecentage = 0.05;
-        }
     }
-    internal class InStoreShopingCart : ShopingCart
-    {
-        protected override void ApplyDiscount(Invoice invoice)
-        { 
-        }
-    }
-}
