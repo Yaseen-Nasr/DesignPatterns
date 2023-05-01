@@ -26,6 +26,7 @@ in `SalesSystem` procject
 and ovveride the behavier of `ApplyDiscount()` which is a 'template method' to calculate discount only in online,
 
 6-Factory Method Pattern
+
 assume `SalesSystem` a clinet for `SalesSystemPaymentsAbstraction` to create a payment methods fnctionality  
 
 -Decorator Pattern
