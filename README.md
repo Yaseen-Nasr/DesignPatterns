@@ -15,7 +15,7 @@ far from chenges requirements in AdapterPattern projc
           
 3-Strategy Patter 
 
-4-Factory Patterns n (handilling Null Object)
+4-Simple Factory Patterns n (handilling Null Object)
 
  Apply simple factory pattern in `SalesSystem` project when create new instance of `ICustomerDiscountStrategy` to centralizetion creation instance with in `CustomerDiscountStrategyFactory` and handling null object excebtion  by return the default instance of `NewCustomerDiscountStrategy`,
 
