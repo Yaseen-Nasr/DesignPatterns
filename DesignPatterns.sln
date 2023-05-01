@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdapterPattern", "AdapterPa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PayrollSystem", "PayrollSystem\PayrollSystem.csproj", "{82587FE1-A08D-45EB-BD5D-BA0518606080}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SalesPattern", "StrategyPattern\SalesPattern.csproj", "{BDD4852C-F95A-49C5-B53B-BBF88354D322}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SalesSystem", "StrategyPattern\SalesSystem.csproj", "{BDD4852C-F95A-49C5-B53B-BBF88354D322}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SalesSystemPaymentsAbstraction", "SalesSystemPaymentsAbstraction\SalesSystemPaymentsAbstraction.csproj", "{DED1E17E-5C4B-4908-B258-FCC11B452B31}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +37,10 @@ Global
 		{BDD4852C-F95A-49C5-B53B-BBF88354D322}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BDD4852C-F95A-49C5-B53B-BBF88354D322}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BDD4852C-F95A-49C5-B53B-BBF88354D322}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DED1E17E-5C4B-4908-B258-FCC11B452B31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DED1E17E-5C4B-4908-B258-FCC11B452B31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DED1E17E-5C4B-4908-B258-FCC11B452B31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DED1E17E-5C4B-4908-B258-FCC11B452B31}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

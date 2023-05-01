@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "SalesSystem/1.0.0": {
+        "dependencies": {
+          "SalesSystemPaymentsAbstraction": "1.0.0"
+        },
+        "runtime": {
+          "SalesSystem.dll": {}
+        }
+      },
+      "SalesSystemPaymentsAbstraction/1.0.0": {
+        "runtime": {
+          "SalesSystemPaymentsAbstraction.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SalesSystem/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SalesSystemPaymentsAbstraction/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
