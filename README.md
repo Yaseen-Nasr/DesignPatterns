@@ -24,6 +24,10 @@ far from chenges requirements in AdapterPattern projc
 in `SalesSystem` procject
     in this case i have to Shoping cart types one for `online` and another `in store` and have a steps to calculate taxes and discount in this case requirments is to calculate discount only in `online` and for some reason there's no discount for `In store` carts for now so by make a `ShopingCart` abstract class as a base class and a chiled class `OnlineShopingCart`,`InstoreShopingCart` 
 and ovveride the behavier of `ApplyDiscount()` which is a 'template method' to calculate discount only in online,
+
+6-Factory Method Pattern
+assume `SalesSystem` a clinet for `SalesSystemPaymentsAbstraction` to create a payment methods fnctionality  
+
 -Decorator Pattern
 
 -Observer Pattern
