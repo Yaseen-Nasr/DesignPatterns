@@ -1,0 +1,15 @@
+C:\Data\DesignPatterns\OnlineOrders\bin\Debug\net6.0\OnlineOrders.exe
+C:\Data\DesignPatterns\OnlineOrders\bin\Debug\net6.0\OnlineOrders.dll
+C:\Data\DesignPatterns\OnlineOrders\obj\Debug\net6.0\OnlineOrders.csproj.AssemblyReference.cache
+C:\Data\DesignPatterns\OnlineOrders\obj\Debug\net6.0\OnlineOrders.GeneratedMSBuildEditorConfig.editorconfig
+C:\Data\DesignPatterns\OnlineOrders\obj\Debug\net6.0\OnlineOrders.AssemblyInfoInputs.cache
+C:\Data\DesignPatterns\OnlineOrders\obj\Debug\net6.0\OnlineOrders.AssemblyInfo.cs
+C:\Data\DesignPatterns\OnlineOrders\obj\Debug\net6.0\OnlineOrders.csproj.CoreCompileInputs.cache
+C:\Data\DesignPatterns\OnlineOrders\obj\Debug\net6.0\OnlineOrders.dll
+C:\Data\DesignPatterns\OnlineOrders\obj\Debug\net6.0\refint\OnlineOrders.dll
+C:\Data\DesignPatterns\OnlineOrders\obj\Debug\net6.0\OnlineOrders.pdb
+C:\Data\DesignPatterns\OnlineOrders\bin\Debug\net6.0\OnlineOrders.deps.json
+C:\Data\DesignPatterns\OnlineOrders\bin\Debug\net6.0\OnlineOrders.runtimeconfig.json
+C:\Data\DesignPatterns\OnlineOrders\bin\Debug\net6.0\OnlineOrders.pdb
+C:\Data\DesignPatterns\OnlineOrders\obj\Debug\net6.0\OnlineOrders.genruntimeconfig.cache
+C:\Data\DesignPatterns\OnlineOrders\obj\Debug\net6.0\ref\OnlineOrders.dll
