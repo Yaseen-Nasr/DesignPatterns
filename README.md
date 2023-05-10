@@ -16,6 +16,7 @@ far from chenges requirements in AdapterPattern projc
 3-Strategy Pattern
 in `SalesSystem` It simulates an sales management system to calculate invoice discount based on `Customer Category` 
 Using the CustomerDiscountStrategyFactory to create an instance of the appropriate discount strategy based on the customer's category. and then set (SetDiscountStrategy) to `InvoiceManager an call createInvoice to create the invoice with the applied discount.
+
 4-Simple Factory Patterns n (handilling Null Object)
 
  Apply simple factory pattern in `SalesSystem` project when create new instance of `ICustomerDiscountStrategy` to centralizetion creation instance with in `CustomerDiscountStrategyFactory` and handling null object excebtion  by return the default instance of `NewCustomerDiscountStrategy`,
