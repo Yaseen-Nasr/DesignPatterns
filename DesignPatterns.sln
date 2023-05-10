@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PayrollSystem", "PayrollSys
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SalesSystem", "StrategyPattern\SalesSystem.csproj", "{BDD4852C-F95A-49C5-B53B-BBF88354D322}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SalesSystemPaymentsAbstraction", "SalesSystemPaymentsAbstraction\SalesSystemPaymentsAbstraction.csproj", "{DED1E17E-5C4B-4908-B258-FCC11B452B31}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SalesSystemPaymentsAbstraction", "SalesSystemPaymentsAbstraction\SalesSystemPaymentsAbstraction.csproj", "{DED1E17E-5C4B-4908-B258-FCC11B452B31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineOrders", "OnlineOrders\OnlineOrders.csproj", "{F6C6FC30-EC1E-429C-905E-88B31083454A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +43,10 @@ Global
 		{DED1E17E-5C4B-4908-B258-FCC11B452B31}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DED1E17E-5C4B-4908-B258-FCC11B452B31}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DED1E17E-5C4B-4908-B258-FCC11B452B31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6C6FC30-EC1E-429C-905E-88B31083454A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6C6FC30-EC1E-429C-905E-88B31083454A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6C6FC30-EC1E-429C-905E-88B31083454A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6C6FC30-EC1E-429C-905E-88B31083454A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
